@@ -1,10 +1,31 @@
 nav ul{
     display: inline;
+    font-size:20px;
+    margin-left:200px;
+}
+nav ul li{
+    margin-right:10px;
+  
+}
+
+nav ul li:hover{
+    background-color: white;
+    
+}
+.card-body p{
+    font-size:16px;
+}
+.card button{
+    font-size:15px;
+}
+.collapse{
+    float:right;
 }
 nav img{
     height:60px;
 }
 .center{
+    font-size:40px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,7 +59,7 @@ background-color: rgb(239,249,255);
 }
 
 .card p{
-    height:130px;
+    height:180px;
 }
 .card h1{
     height:20px;
@@ -76,4 +97,9 @@ background-color: rgb(239,249,255);
 .gluten:hover
 {
      color:rgb(186,111,171);
+}
+
+p{
+    font-size:15px;
+    
 }
